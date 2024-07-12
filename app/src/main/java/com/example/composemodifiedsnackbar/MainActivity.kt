@@ -37,10 +37,13 @@ class MainActivity : ComponentActivity() {
                     Text(text = "Show Snackbar")
                 }
             }
-            ComposeModifiedSnackbarSuccess(
+            ComposeModifiedSnackbar(
                 state = state,
                 position = ComposeModifiedSnackbarPosition.Float,
-                duration = ComposeModifierSnackbarDuration.SHORT,
+                duration = ComposeModifierSnackbarDuration.INFINITE,
+                containerColor = ComposeModifiedSnackbarColor.CustomColor(Color.Black),
+                contentColor = ComposeModifiedSnackbarColor.TextWhite,
+                withDismissAction = true
             )
         }
     }
