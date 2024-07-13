@@ -4,13 +4,15 @@
 🎨 This is a custom snackbar library for jetpack compose that will help you to integrate and customize a snackbar as you want in your android application.
 
 ## 📚 Implementation
-```kotlin dsl  
+```kotlin dsl
+// Add this to your settings.gradle file
 repositories {  
   maven("https://jitpack.io")
 }  
-  
+
+// Add this to your app-level build.gradle file
 dependencies {  
- Implementation("com.github.saimon4u:Compose-Modified-Snackbar:latest-version")
+ implementation("com.github.saimon4u:Compose-Modified-Snackbar:latest-version")
 }  
 ```
 
@@ -18,7 +20,6 @@ dependencies {
 ## 🏅 How to use it ?
 
 ### ComposeModifiedSnackbarSuccess ✔
-
 
 ```kotlin
   val state = rememberComposeModifiedSnackbarState()
@@ -39,7 +40,7 @@ dependencies {
     withDismissAction = true
   )
 ```
-![Success Snackbar](https://github.com/user-attachments/assets/dafc62dc-0342-4da8-8c68-168cfd9a17b3)
+<p align="center"> <img src="https://github.com/user-attachments/assets/dafc62dc-0342-4da8-8c68-168cfd9a17b3" width="250"/> </p>
 
 ### ComposeModifiedSnackbarError ❌
 ```kotlin
@@ -62,7 +63,7 @@ val state = rememberComposeModifiedSnackbarState()
     withDismissAction = true
   )
 ```
-![Snackbar Error](https://github.com/user-attachments/assets/57c14a56-0e56-4bb4-a36e-a4c9ad725200)
+<p align="center"> <img src="https://github.com/user-attachments/assets/57c14a56-0e56-4bb4-a36e-a4c9ad725200" width="250"/> </p>
 
 ### ComposeModifiedSnackbar 🎉
 ```kotlin
@@ -87,7 +88,8 @@ val state = rememberComposeModifiedSnackbarState()
     withDismissAction = true
   )
 ```
-![Modified Snackbar](https://github.com/user-attachments/assets/f763aec6-2b01-4758-a076-65a539645796)
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/f763aec6-2b01-4758-a076-65a539645796" width="250"/> </p>
 
 ### Floating ComposeModifiedSnackbar 🎉
 ```kotlin
@@ -112,7 +114,7 @@ val state = rememberComposeModifiedSnackbarState()
     withDismissAction = true
   )
 ```
-![Floating Snackbar](https://github.com/user-attachments/assets/02341384-e368-4ada-9d93-c1ca690fbde6)
+<p align="center"> <img src="https://github.com/user-attachments/assets/02341384-e368-4ada-9d93-c1ca690fbde6" width="250"/> </p>
 
 
 # 🌍 Contribution 
