@@ -57,7 +57,7 @@ internal fun ComposeModifiedSnackbarComponent(
     contentColor: ComposeModifiedSnackbarColor,
     verticalPadding: Dp,
     horizontalPadding: Dp,
-    icon: ImageVector,
+    icon: ImageVector?,
     enterAnimation: EnterTransition,
     exitAnimation: ExitTransition,
     withDismissAction: Boolean

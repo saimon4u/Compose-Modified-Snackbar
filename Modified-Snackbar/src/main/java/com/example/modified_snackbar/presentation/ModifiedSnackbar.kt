@@ -37,7 +37,7 @@ internal fun ModifiedSnackbar(
     contentColor: ComposeModifiedSnackbarColor,
     verticalPadding: Dp,
     horizontalPadding: Dp,
-    icon: ImageVector,
+    icon: ImageVector?,
     withDismissAction: Boolean,
     onDismiss: (() -> Unit)? = null
 ) {
@@ -70,15 +70,17 @@ internal fun ModifiedSnackbar(
                 .weight(4f),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            Icon(
-                imageVector = icon,
-                contentDescription = "Snackbar Icon",
-                tint = contentColor.color,
-                modifier = Modifier
-                    .testTag(TestTag.SNACKBAR_ICON)
-            )
+            icon?.let {
+                Icon(
+                    imageVector = icon,
+                    contentDescription = "Snackbar Icon",
+                    tint = contentColor.color,
+                    modifier = Modifier
+                        .testTag(TestTag.SNACKBAR_ICON)
+                )
 
-            Spacer(modifier = Modifier.width(16.dp))
+                Spacer(modifier = Modifier.width(16.dp))
+            }
 
             Text(
                 modifier = Modifier

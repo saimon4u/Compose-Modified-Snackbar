@@ -27,7 +27,7 @@ fun ComposeModifiedSnackbar(
     state: ComposeModifiedSnackbarState,
     position: ComposeModifiedSnackbarPosition = ComposeModifiedSnackbarPosition.Bottom,
     duration: ComposeModifierSnackbarDuration = ComposeModifierSnackbarDuration.SHORT,
-    icon: ImageVector = Icons.Default.Star,
+    icon: ImageVector? = Icons.Default.Star,
     containerColor: ComposeModifiedSnackbarColor = ComposeModifiedSnackbarColor.CustomColor(Color.Gray),
     contentColor: ComposeModifiedSnackbarColor = ComposeModifiedSnackbarColor.TextWhite,
     enterAnimation: EnterTransition = expandVertically(
