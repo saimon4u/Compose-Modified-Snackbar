@@ -1,6 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![](https://jitpack.io/v/saimon4u/Compose-Modified-Snackbar.svg)](https://jitpack.io/#saimon4u/Compose-Modified-Snackbar)
 
-
 🎨 This is a custom snackbar library for jetpack compose that will help you to integrate and customize a snackbar as you want in your android application.
 
 ## 📚 Implementation
