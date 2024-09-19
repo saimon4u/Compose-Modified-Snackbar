@@ -17,7 +17,7 @@ dependencies {
 ```
 
 
-## 🏅 How to use it ?
+## 🏅 How to use it?
 
 ### ComposeModifiedSnackbarSuccess ✔
 
